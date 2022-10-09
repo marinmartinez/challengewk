@@ -1,3 +1,35 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+header .navegador {
+  flex: 1 0 18.25vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #dfdfdf;
+  position: sticky;
+  top: auto;
+}
+
+header h1 {
+  color: #5f2eea;
+  font-size: 38.34px;
+  position: absolute;
+  width: 205px;
+  height: 55px;
+  left: 45px;
+  top: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.375px;
+  line-height: 55px;
+}
 
 /*# sourceMappingURL=styles.css.map */
